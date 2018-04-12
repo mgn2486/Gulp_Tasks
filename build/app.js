@@ -1,0 +1,1 @@
+!function(){"use strict";var n=document.getElementsByClassName("txtwav");function t(n,t){for(var e=0;e<t.length;e++){var r=document.createElement("span");r.innerHTML=" "===t[e]?"&nbsp;":t[e],n.appendChild(r)}}for(var e=0,r=n.length;e<r;e++){var a=n[e],i=a.textContent.trim();a.innerHTML="",t(a,i)}}();
